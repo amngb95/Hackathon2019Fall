@@ -1,0 +1,15 @@
+<app-home></app-home>
+<div class="card-deck">
+  <div *ngFor="let profile of result" class="card" style="margin: 40px">
+    <div class="card-body">
+      <h5 class="card-title">{{profile.userId}}</h5>
+      <p class="card-text"> {{profile.name}}</p>
+      <p class="card-text">{{profile.email}}</p>
+      <p class="card-text">{{profile.contact}}</p>
+      <p class="card-text">{{profile.age}}</p>
+      <p class="card-text">{{profile.university}}</p>
+      <p class="card-text">{{profile.address}}</p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
